@@ -1,0 +1,20 @@
+{
+  "name": "express-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha test\\*.js --exit"
+  },
+  "author": "ruddy palvair",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.0"
+  }
+}
